@@ -32,3 +32,33 @@ Rather than presenting theological conclusions alone, this project represents te
 - Standard Template Library (STL)
 - JSON
 - Graph algorithms
+
+## Project Structure
+├── README.md
+├── main.cpp
+├── include/
+│ └── GreekTerm.h
+└── data/
+└── cyril_terms.txt
+
+## Goals
+
+This project explores Greek theological vocabulary through programming.
+
+The purpose is to create a searchable digital lexicon that connects:
+
+- Greek terms
+- Historical sources
+- Authors
+- Definitions
+- Contextual usage
+
+## Current Research
+
+Examples include:
+
+- προχέω
+- ἐκπορεύω
+- προϊέναι
+
+with emphasis on the terminology of St. Cyril of Alexandria.
