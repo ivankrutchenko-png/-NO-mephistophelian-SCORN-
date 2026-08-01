@@ -1,2 +1,2 @@
 # -NO-mephistophelian-SCORN-Greek-Patristic-Lexicon
-Trinitarian theology of FIlioque way description lost in translation :/
+C++ project for analyzing Greek patristic Trinitarian theology of FIlioque way description lost in translation
