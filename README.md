@@ -1,64 +1,21 @@
-# Greek Patristic Lexicon
+# Patristic Semantics: Formal Computational Ontology for Greek Pneumatological Lexicons
 
-## Overview
+[![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://en.cppreference.com/w/cpp/20)
+[![Domain](https://img.shields.io/badge/Domain-Computational_Philology-darkgreen.svg)](#)
+[![Status](https://img.shields.io/badge/Status-Formal_Model_Validated-orange.svg)](#)
 
-This project is a C++ exploration of Greek patristic theology through software engineering.
+A discrete computational semantics and relational ontology engine implemented in modern C++20. This engine formalizes, disambiguates, and audits Greek patristic terminology across 5th-century Trinitarian debates, specifically isolating the asymmetry between Alexandrian essential-communicative idioms and Antiochene hypostatic-causal constraints.
 
-The goal is to model and analyze the vocabulary used by early Greek theologians, with particular attention to Trinitarian terminology and how key Greek terms are understood in their historical and linguistic context.
+---
 
-Rather than presenting theological conclusions alone, this project represents texts, terminology, and relationships using object-oriented programming and searchable data structures.
+## 1. Problem Space: The Semantic Collapse in Translation
 
-## Current Research
+Historical-theological scholarship has established that Latin translations collapsed distinct Greek operational verbs into singular terms (e.g., translating both *ἐκπορεύεσθαι* and *προϊέναι* into *procedere*). This lexical flattening obscured structural distinctions carefully maintained in the original texts:
 
-- Greek theological vocabulary
-- Lexical analysis of key Trinitarian terms
-- Writings of St. Cyril of Alexandria
-- Comparison of Greek patristic terminology
-- Historical source mapping
+```text
+[Greek Distinction]
+  ├── ἐκπόρευσις (ekporeusis) ──> Father as Sole Aitia / Arche (Hypostatic Origin)
+  └── προχεῖν    (prochein)    ──> Substantial Flow through the Son (Consubstantiality / Ousia)
 
-## Planned Features
-
-- Searchable Greek lexicon
-- Citation database
-- Interactive relationship graph
-- Greek word parser
-- Historical timeline
-- JSON database of patristic sources
-
-## Technologies
-
-- C++
-- Object-Oriented Programming
-- Standard Template Library (STL)
-- JSON
-- Graph algorithms
-
-## Project Structure
-├── README.md
-├── main.cpp
-├── include/
-│ └── GreekTerm.h
-└── data/
-└── cyril_terms.txt
-
-## Goals
-
-This project explores Greek theological vocabulary through programming.
-
-The purpose is to create a searchable digital lexicon that connects:
-
-- Greek terms
-- Historical sources
-- Authors
-- Definitions
-- Contextual usage
-
-## Current Research
-
-Examples include:
-
-- προχέω
-- ἐκπορεύω
-- προϊέναι
-
-with emphasis on the terminology of St. Cyril of Alexandria.
+[Latin Translation Collapse]
+  └── procedere ───────────────> Conflates Hypostatic Cause with Essential Communication
