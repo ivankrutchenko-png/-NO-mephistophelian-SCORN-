@@ -1,14 +1,34 @@
-Author:
-Cyril of Alexandria
+====================================
+PATRISTIC TERMINOLOGY DATASET: CYRIL OF ALEXANDRIA & THEODORET OF CYRUS
+====================================
+[ENTRY_01]
+LEMMA: προχέω (procheō)
+FORMS_FOUND: προχεόμενον (participle), προχεῖται (middle/passive 3rd sing)
+MEANING: To pour forth, flow forth
+THEOLOGICAL_DOMAIN: Essential communication / Homoousion (not hypostatic origin)
+LOCUS: De adoratione in spiritu et veritate 1 (PG 68:148)
+GREEK_TEXT: εἴ περ ἐστὶ τοῦ Θεοῦ καὶ Πατρὸς καὶ μὴν καὶ τοῦ Υἱοῦ τὸ οὐσιωδῶς ἐξ ἀμφοῖν ἤγουν ἐκ Πατρὸς δι' Υἱοῦ προχεόμενον Πνεῦμα
+ENGLISH: "The Spirit of God the Father and the Son also, Which is poured forth essentially from Both, i.e., from the Father through the Son."
+PREPOSITION_USED: διά (through the Son)
 
-Term:
-προχέω
+[ENTRY_02]
+LEMMA: ἐκπορεύεσθαι (ekporeuesthai) / ἐκπόρευσις (ekporeusis)
+FORMS_FOUND: ἐκπορεύεται (pres. ind. 3rd sing), ἐκπορευόμενον (participle)
+MEANING: To proceed forth from
+THEOLOGICAL_DOMAIN: Hypostatic origin / Personal existence from ultimate cause (aitia)
+LOCUS: Gospel of John 15:26 / Symbolum Constantinopolitanum / Cyril's Apologia
+GREEK_TEXT: τὸ ἐκ τοῦ Πατρὸς ἐκπορευόμενον
+RULE: Cyril strictly reserves this verb for the Spirit's origin from the Father alone as arche/aitia.
+PREPOSITION_USED: ἐκ (from the Father)
 
-Meaning:
-Poured forth / flowing forth
+[ENTRY_03]
+LEMMA: προϊέναι (proienai) / πρόεισι (proeisi)
+MEANING: To go forth, advance
+THEOLOGICAL_DOMAIN: Relaxed usage; covers essential relation, indwelling, and economic mission
+RULE: Used flexibly by Cyril without implying the Son is a co-cause (aitia) of hypostatic existence.
 
-Context:
-Used to describe the Holy Spirit's relation to the Father through the Son.
-
-Related term:
-ἐκπορεύω
+[ENTRY_04]
+CONTROVERSY: Theodoret of Cyrus - Reprehensio duodecim anathematismorum
+TARGET: Cyril's 9th Anathema (ἴδιον τοῦ Χριστοῦ τὸ Πνεῦμα)
+CONTESTED_FORMULA: ἐξ Υἱοῦ ἢ δι' Υἱοῦ τὴν ὕπαρξιν ἔχον ("having its origin/existence out of or through the Son")
+STATUS: Rejected by Theodoret as blasphemous if taken hypostatically; reconciled in 433 Formula of Reunion when Cyril confirmed the Spirit derives hypostatic existence from the Father alone.
