@@ -8,7 +8,7 @@ MEANING: To pour forth, flow forth
 THEOLOGICAL_DOMAIN: Essential communication / Homoousion (not hypostatic origin)
 LOCUS: De adoratione in spiritu et veritate 1 (PG 68:148)
 GREEK_TEXT: εἴ περ ἐστὶ τοῦ Θεοῦ καὶ Πατρὸς καὶ μὴν καὶ τοῦ Υἱοῦ τὸ οὐσιωδῶς ἐξ ἀμφοῖν ἤγουν ἐκ Πατρὸς δι' Υἱοῦ προχεόμενον Πνεῦμα
-ENGLISH: "The Spirit of God the Father and the Son also, Which is poured forth essentially from Both, i.e., from the Father through the Son."
+ENGLISH: "The Spirit of God the Father and the Son also, Which is poured forth ESSENTIALLY from Both, i.e., from the Father through the Son."
 PREPOSITION_USED: διά (through the Son)
 
 [ENTRY_02]
