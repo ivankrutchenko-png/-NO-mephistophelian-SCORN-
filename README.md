@@ -68,3 +68,28 @@ This formal rule ensures that assertions positing the Spirit having personal exi
 │   └── cyril_terms.txt     # Structured patristic corpus excerpts & loci
 └── README.md               # Theoretical specification & operational manual
 ```
+---
+
+## 5. Output Verification Trace
+
+Running the C++ verification pipeline yields the structured audit log:
+
+```text
+=======================
+ PATRISTIC SEMANTIC AUDIT: CYRIL vs. THEODORET
+=======================
+Citation: De adoratione 1 (PG 68:148)
+Author:   Cyril of Alexandria
+Formula:  Holy Spirit [προχεόμενον] διά Son
+Theodoret Antiochene Compatibility Check: PASSED (Orthodox/Consubstantial)
+--------------------------------------------------------
+Citation: Apologia contra Theodoretum
+Author:   Cyril of Alexandria (citing John 15:26)
+Formula:  Holy Spirit [ἐκπορεύεται] ἐκ Father
+Theodoret Antiochene Compatibility Check: PASSED (Orthodox/Consubstantial)
+--------------------------------------------------------
+Citation: Reprehensio duodecim anathematismorum
+Author:   Hypothetical Filioquist Error (contested by Theodoret)
+Formula:  Holy Spirit [ἔχον τὴν ὕπαρξιν] ἐκ Son
+Theodoret Antiochene Compatibility Check: REJECTED (Alleges Cause from Son)
+--------------------------------------------------------
