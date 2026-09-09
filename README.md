@@ -19,3 +19,52 @@ Historical-theological scholarship has established that Latin translations colla
 
 [Latin Translation Collapse]
   └── procedere ───────────────> Conflates Hypostatic Cause with Essential Communication
+This engine models these lexical structures using strict type-level invariants, preventing historical semantic conflations programmatically[cite: 1].
+
+---
+
+## 2. Linguistic Framework & Formal Taxonomy
+
+The system enforces categorical typing across three primary dimensions:
+
+### A. Asymmetric Verb Distribution
+* **γεννάω / γέννησις (Beget / Generation):** Reserved exclusively for the Father generating the Son[cite: 1]. Cyril does not symmetrically apply "pouring forth" (προχέω) to the generation of the Son[cite: 1].
+* **ἐκπορεύεσθαι / ἐκπόρευσις (Proceed / Procession):** Strictly reserved for the Spirit’s hypostatic origin from the Father as the unique, ultimate source (αἰτία)[cite: 1].
+* **προχέω (προχεόμενον / προχεῖται) & προϊέναι (Flow / Pour Forth / Go Forth):** Employed flexibly for essential communication, the *homoousion*, and the inseparable unity of operation—the Spirit flowing essentially from the Father through the Son (ἐκ Πατρὸς δι' Υἱοῦ) without positing a secondary hypostatic cause[cite: 1].
+
+### B. Prepositional Governance
+* **ἐκ (Ek - Out of):** Governs originative cause when applied to personal hypostasis (ἐκ τοῦ Πατρός)[cite: 1].
+* **διά (Dia - Through):** Governs essential manifestation and economic mission (δι' Υἱοῦ)[cite: 1].
+
+---
+
+## 3. Algorithmic Invariant: The Theodoret Compatibility Check
+
+The engine programmatically encodes the dispute surrounding Cyril of Alexandria's Ninth Anathema and Theodoret of Cyrus's critique (*Reprehensio duodecim anathematismorum*), as reconciled in the Formula of Reunion (433 AD) and Epistle 171[cite: 1].
+
+Let an assertion $A$ be defined as the tuple:
+$$A = \langle V, P, M, S, T \rangle$$
+where:
+* $V \in \text{Verbs}$ (e.g., προχεόμενον, ἐκπορεύεται)[cite: 1]
+* $P \in \{\text{ἐκ}, \text{διά}, \text{παρά}\}$[cite: 1]
+* $M \in \{\text{Hypostatic Cause}, \text{Essential Flow}, \text{Economic Mission}\}$[cite: 1]
+* $S \in \text{Persons}$ (Subject)[cite: 1]
+* $T \in \text{Persons}$ (Target)[cite: 1]
+
+$$\text{TheodoretAudit}(A) = \begin{cases}  \text{REJECTED} & \text{if } T = \text{Son} \land M = \text{Hypostatic Cause} \\ \text{PASSED} & \text{otherwise} \end{cases}$$
+
+This formal rule ensures that assertions positing the Spirit having personal existence out of or through the Son (ἐξ Υἱοῦ ἢ δι' Υἱοῦ τὴν ὕπαρξιν ἔχον) are identified as non-compliant with historical patristic criteria, while consubstantial and economic formulas pass verification[cite: 1].
+
+---
+
+## 4. Architecture & System Layout
+
+```text
+├── include/
+│   └── GreekTerm.h         # Formal enum typing & semantic assertion structs
+├── src/
+│   └── main.cpp            # Execution pipeline, AST instantiation & audit engine
+├── data/
+│   └── cyril_terms.txt     # Structured patristic corpus excerpts & loci
+└── README.md               # Theoretical specification & operational manual
+```
